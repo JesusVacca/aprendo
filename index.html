@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/mortarboard.svg" type="image/x-icon">
+    <title>Aprendo</title>
+</head>
+<body>
+    <div class="mouse" id="mouse"></div>
+
+    <div class="chatbot" id="chatbot">
+        <div class="mensaje">¡Hola, soy Robit! <br>¿Necesitas ayuda?</div>
+        <img src="img/robot.svg" alt="chatbot">
+    </div>
+    <div class="box" id="box">
+        <div class="box__header">
+            <div class="icon">
+                <img src="img/robot.svg" alt="robot">
+                <span>Robit</span>
+            </div>
+            <button type="button" id="cerrar"><img src="img/x.svg" alt="cerrar"></button>
+        </div>
+        <div class="box__display" id="boxDisplay">
+            <div class="box__contenido">
+                <p>&#128075; Hola, ¿En que te puedo ayudar?</p>
+            </div>
+        </div>
+        <div class="box__input">
+            <button type="button" id="clean" title="Nuevo chat"><img src="img/plus.svg" alt=""></button>
+            <input type="text" placeholder="Ingresa tu duda" id="inputUser">
+            <button type="button"><img src="img/send.svg" alt="enviar"></button>
+        </div>
+    </div>
+    <div class="contenedor" id="contenedor">
+        <header class="header" id="header">
+            <div class="logo">
+                <h1>
+                    &lt;Aprendo
+                    <img src="img/mortarboard.svg" alt="Grado" class="grado">/&gt;
+                </h1>
+            </div>
+            <nav class="nav" id="nav">
+                <ul>
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li class="registrar"><a href="#">Registrar</a></li>
+                </ul>
+            </nav>
+            <button type="button" class="hamburguesa" id="hamburguesa">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+        <main class="main" id="main">
+            <div class="banner">
+                <div class="capa"></div>
+                
+                <div class="texto">
+                    <h2>¡Bienvenidos!</h2>
+                    <p>
+                        ¡Hola! Prepárate para mejorar tus habilidades de programación y 
+                        desbloquear tu verdadero potencial. En este espacio, 
+                        cada reto es una oportunidad de crecimiento, cada línea de código te acerca a tus metas. 
+                        Ya sea que estés empezando o perfeccionando tus conocimientos, 
+                        estamos aquí para guiarte en cada paso. ¡Atrévete a descubrir hasta dónde puedes llegar!</p>
+                        <button type="button">Empezar</button>
+                </div>
+                <div class="banner__img">
+                    <img src="img/banner.png" alt="banner">
+                </div>
+            </div>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="footer__atajos">
+                <div class="enlaces">
+                    <h2>Enlaces rapidos</h2>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li class="registrar"><a href="#">Registrar</a></li>
+                    </ul>
+                </div>
+                <div class="redes">
+                    <h2>Siguenos</h2>
+                    <a href="#" class="red">
+                        <span>Facebook</span>
+                        <img src="img/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="#" class="red">
+                        <span>Instagram</span>
+                        <img src="img/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="#" class="red">
+                        <span>Whatsapp</span>
+                        <img src="img/whatsapp.svg" alt="Whatsapp">
+                    </a>
+                    <a href="#" class="red">
+                        <span>YouTube</span>
+                        <img src="img/youtube.svg" alt="YouTube">
+                    </a>
+                </div>
+            </div>
+            <div class="creditos">
+                <p> &copy; <strong>2024 Aprendo. </strong><br> Creado por <strong>Jesús Vacca.</strong></p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
