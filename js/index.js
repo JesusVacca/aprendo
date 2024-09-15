@@ -48,10 +48,10 @@ document.getElementById('hamburguesa').addEventListener('click',function(e){
     document.querySelector('nav ul').classList.toggle('open');
 })
 
-document.getElementById('contenedor').addEventListener('mousemove',function(e){
-    const x = e.clientX;
-    const y = e.clientY;
-    const mouse = document.getElementById('mouse');
-    mouse.style.left = `${x}px`;
-    mouse.style.top = `${y}px`;
-})
+// document.getElementById('contenedor').addEventListener('mousemove',function(e){
+//     const x = e.clientX;
+//     const y = e.clientY;
+//     const mouse = document.getElementById('mouse');
+//     mouse.style.left = `${x}px`;
+//     mouse.style.top = `${y}px`;
+// })
